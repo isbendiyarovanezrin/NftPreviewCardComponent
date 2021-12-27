@@ -11,6 +11,7 @@
 
     &:hover {
       background: url(../images/icon-view.svg) center no-repeat $cyan;
+      cursor: pointer;
 
       .card__image__content {
         opacity: 0.3;
@@ -30,6 +31,7 @@
 
     &:hover {
       color: $cyan;
+      cursor: pointer;
       @include transition(all, 0.5s, ease);
     }
   }
@@ -91,6 +93,7 @@
 
         &:hover {
           color: $cyan;
+          cursor: pointer;
           @include transition(all, 0.5s, ease);
         }
       }

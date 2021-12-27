@@ -57,6 +57,7 @@ img {
 
 .card__image:hover {
   background: url(../images/icon-view.svg) center no-repeat #00fff7;
+  cursor: pointer;
 }
 
 .card__image:hover .card__image__content {
@@ -76,6 +77,7 @@ img {
 
 .card__title:hover {
   color: #00fff7;
+  cursor: pointer;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -152,6 +154,7 @@ img {
 
 .card__footer__title span:hover {
   color: #00fff7;
+  cursor: pointer;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
