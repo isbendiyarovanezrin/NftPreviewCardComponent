@@ -56,7 +56,7 @@ img {
 }
 
 .card__image:hover {
-  background: url(../images/icon-view.svg) center no-repeat #00fff7;
+  background: url(../images/icon-view.svg) center no-repeat #00fff7a8;
   cursor: pointer;
 }
 

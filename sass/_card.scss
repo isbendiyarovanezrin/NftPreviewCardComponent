@@ -10,7 +10,7 @@
     height: $card-img-height;
 
     &:hover {
-      background: url(../images/icon-view.svg) center no-repeat $cyan;
+      background: url(../images/icon-view.svg) center no-repeat $hover-clr;
       cursor: pointer;
 
       .card__image__content {
