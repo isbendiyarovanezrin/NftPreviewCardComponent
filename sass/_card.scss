@@ -28,6 +28,7 @@
     color: $white-clr;
     font-weight: $font-weight-normal;
     margin: $margin-2 $margin-reset $margin-reset;
+    -webkit-tap-highlight-color: transparent;
 
     &:hover {
       color: $cyan;
@@ -90,6 +91,7 @@
 
       span {
         color: $white-clr;
+        -webkit-tap-highlight-color: transparent;
 
         &:hover {
           color: $cyan;

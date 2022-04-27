@@ -73,6 +73,7 @@ img {
   color: #fdfafa;
   font-weight: 400;
   margin: 2rem 0rem 0rem;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .card__title:hover {
@@ -150,6 +151,7 @@ img {
 
 .card__footer__title span {
   color: #fdfafa;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .card__footer__title span:hover {
