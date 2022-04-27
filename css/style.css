@@ -53,6 +53,7 @@ img {
 .card__image {
   border-radius: 10px;
   height: 26rem;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .card__image:hover {
@@ -193,7 +194,7 @@ hr {
   background-color: #8bacda;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   html {
     font-size: 8px;
   }
@@ -202,7 +203,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   html {
     font-size: 7px;
   }

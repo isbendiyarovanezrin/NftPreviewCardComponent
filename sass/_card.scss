@@ -8,6 +8,7 @@
   &__image {
     border-radius: $border-radius;
     height: $card-img-height;
+    -webkit-tap-highlight-color: transparent;
 
     &:hover {
       background: url(../images/icon-view.svg) center no-repeat $hover-clr;
@@ -129,7 +130,7 @@ hr {
   background-color: $soft-blue;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   html {
     font-size: 8px;
   }
@@ -139,7 +140,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   html {
     font-size: 7px;
   }
